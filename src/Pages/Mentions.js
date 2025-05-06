@@ -1,9 +1,10 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 const Mentions = () => {
   return (
     <div>
-      <h1>Mentions Légales</h1>
+      <Navigation />
     </div>
   );
 };
