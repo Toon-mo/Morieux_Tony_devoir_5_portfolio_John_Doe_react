@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const Navigation = () => {
   return (
@@ -24,29 +25,54 @@ const Navigation = () => {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav nav-underline text-uppercase ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  "nav-link" + (isActive ? " active" : "")
+                }
+              >
                 home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/services">
+              <NavLink
+                to="/services"
+                className={({ isActive }) =>
+                  "nav-link" + (isActive ? " active" : "")
+                }
+              >
                 services
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/realisations">
+              <NavLink
+                to="/realisations"
+                className={({ isActive }) =>
+                  "nav-link" + (isActive ? " active" : "")
+                }
+              >
                 portfolio
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  "nav-link" + (isActive ? " active" : "")
+                }
+              >
                 contact
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/mentions">
+              <NavLink
+                to="/mentions"
+                className={({ isActive }) =>
+                  "nav-link" + (isActive ? " active" : "")
+                }
+              >
                 mentions légales
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
