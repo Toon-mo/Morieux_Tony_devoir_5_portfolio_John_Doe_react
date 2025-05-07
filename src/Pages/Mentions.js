@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Mentions = () => {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <Navigation />
       <div className="container text-center p-5">
         <h1 className="col align-self-center">Mentions Légales</h1>
@@ -174,6 +174,7 @@ const Mentions = () => {
           </div>
         </div>
       </div>
+      <div className="flex-fill"></div>
       <Footer />
     </div>
   );

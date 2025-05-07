@@ -13413,6 +13413,7 @@ hr {
 }
 
 .modal {
+  margin-top: -35vh;
   height: 800px;
 }
 
