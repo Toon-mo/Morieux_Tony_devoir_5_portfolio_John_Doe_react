@@ -27,11 +27,6 @@ hr {
     opacity: 1;
 }
 
-.nav-link:focus ::active {
-    font-size: 1.1em;
-    font-weight: bolder;
-}
-
 .icon-link:hover svg {
     fill: $light;
 
