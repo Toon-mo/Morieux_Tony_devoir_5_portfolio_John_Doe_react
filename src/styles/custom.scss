@@ -1,0 +1,74 @@
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+.display-3, .display-5, strong {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
+strong {
+color: $primary;
+text-decoration: underline;
+}
+
+h5 {
+    font-weight: bolder;
+}
+
+p, span {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    border-top: 5px solid;
+    opacity: 1;
+}
+
+.nav-link:focus ::active {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.icon-link:hover svg {
+    fill: $light;
+
+}
+
+.icon-link:hover  {
+    fill: red;
+}
+
+.progress {
+    margin: 10px 0 24px;
+}
+
+.card:hover {
+    background-color: #efefef;
+    box-shadow: 10px 5px 5px #efefef4e;
+}
+.btn-primary:hover {
+    background-color: $blue-400;
+}
+.modal {
+    height: 800px;
+}
+
+.custom-hr {
+    height: 1px;
+    background-color: $secondary;
+    border: none;
+    margin: 0.5rem 0;
+  }
+  .custom-name{
+    color:$primary;
+    text-decoration: underline;
+  }
+
+.modal-backdrop {
+    background-color: transparent !important;
+  }
+  
+
