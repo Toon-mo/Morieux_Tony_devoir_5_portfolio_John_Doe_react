@@ -5,6 +5,8 @@ import Contact from "./Pages/Contact";
 import Mentions from "./Pages/Mentions";
 import Services from "./Pages/Services";
 import Realisations from "./Pages/Realisations";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const App = () => {
   return (
