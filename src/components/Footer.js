@@ -17,6 +17,7 @@ const Footer = () => {
               className="icon-link "
               href="https://github.com/cadars/john-doe"
               target="blank"
+              rel="nofollow noopener noreferrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,6 +34,7 @@ const Footer = () => {
               className="icon-link ms-3 me-3"
               href="https://x.com/JohnDoe"
               target="blank"
+              rel="nofollow noopener noreferrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,6 +51,7 @@ const Footer = () => {
               className="icon-link"
               href="https://www.linkedin.com/company/john-doe"
               target="blank"
+              rel="nofollow noopener noreferrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
