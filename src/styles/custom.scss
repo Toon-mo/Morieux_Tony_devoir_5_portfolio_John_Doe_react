@@ -22,9 +22,13 @@ p, span {
     font-weight: 400;
 }
 
-hr {
+hr.text-primary {
     border-top: 5px solid;
     opacity: 1;
+}
+hr {
+    border-top:1px solid;
+    opacity:1;
 }
 
 .icon-link:hover svg {
@@ -48,11 +52,12 @@ hr {
     background-color: $blue-700;
 
 .custom-hr {
-    height: 1px;
+    border-top: 1px;
     background-color: $secondary;
     border: none;
     margin: 0.5rem 0;
   }
+
   .custom-name{
     color:$primary;
     text-decoration: underline;
