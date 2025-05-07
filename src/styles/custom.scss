@@ -51,10 +51,6 @@ hr {
 }
 .btn-primary:hover {
     background-color: $blue-400;
-}
-.modal {
-    height: 800px;
-}
 
 .custom-hr {
     height: 1px;
@@ -66,6 +62,11 @@ hr {
     color:$primary;
     text-decoration: underline;
   }
+
+}
+.modal {
+    height: 800px;
+}
 
 .modal-backdrop {
     background-color: transparent !important;
