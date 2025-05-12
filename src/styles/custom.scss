@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 
+.text-uppercase {
+    text-decoration: none;
+  }
+  
 .display-3, .display-5, strong {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 600;
@@ -34,10 +38,6 @@ hr {
 .icon-link:hover svg {
     fill: $light;
 
-}
-
-.icon-link:hover  {
-    fill: red;
 }
 
 .progress {
