@@ -8,9 +8,9 @@ const Navigation = () => {
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <p className="text-uppercase text-white-50 my-auto fs-4" href="/">
+        <a className="text-uppercase text-white-50 my-auto fs-4" href="/">
           john doe
-        </p>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
